@@ -1,0 +1,44 @@
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\bin\Debug\FilterRLC.exe.config
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\bin\Debug\FilterRLC.exe
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\bin\Debug\FilterRLC.pdb
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.csproj.AssemblyReference.cache
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.csproj.SuggestedBindingRedirects.cache
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\MainWindow.g.cs
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\App.g.cs
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC_MarkupCompile.cache
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC_MarkupCompile.lref
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\MainWindow.baml
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.g.resources
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.Properties.Resources.resources
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.csproj.GenerateResource.cache
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.csproj.CoreCompileInputs.cache
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.exe
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.pdb
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\ParamWindow.g.cs
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\ParamWindow.baml
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\Calculations.g.cs
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\Calculations.baml
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\AboutWindow.g.cs
+D:\PG\PG\1.Studia\2 st. Elektrotechnika nst\SEM2\dotNet_desktop\FilterRLC\obj\Debug\AboutWindow.baml
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\bin\Debug\FilterRLC.exe.config
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\bin\Debug\FilterRLC.exe
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\bin\Debug\FilterRLC.pdb
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.csproj.AssemblyReference.cache
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.csproj.SuggestedBindingRedirects.cache
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\AboutWindow.g.cs
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\Calculations.g.cs
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\MainWindow.g.cs
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\ParamWindow.g.cs
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\App.g.cs
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC_MarkupCompile.cache
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC_MarkupCompile.lref
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\AboutWindow.baml
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\Calculations.baml
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\MainWindow.baml
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\ParamWindow.baml
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.g.resources
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.Properties.Resources.resources
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.csproj.GenerateResource.cache
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.csproj.CoreCompileInputs.cache
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.exe
+D:\PG\1.Studia\ELEKTROTECHNIKA_II_NST\SEM2\dotNet_desktop\FilterRLC\obj\Debug\FilterRLC.pdb

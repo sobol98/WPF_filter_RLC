@@ -1,0 +1,15 @@
+﻿<Window x:Class="FilterRLC.Calculations"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FilterRLC"
+        mc:Ignorable="d"
+        Title="Calculations" Height="450" Width="800"
+        MinHeight="300" MinWidth="500">
+    <Grid>
+        <Image Source="/images/calculations.png" Stretch="Uniform" Name="circuitImage"
+               Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="5,5,5,5">
+        </Image>
+    </Grid>
+</Window>

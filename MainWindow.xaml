@@ -1,0 +1,146 @@
+﻿<Window x:Class="FilterRLC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FilterRLC"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800"
+         MinHeight="500" MinWidth="700"
+        Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style x:Key="btnStyle" TargetType="Button">
+            <Setter Property="Background" Value="Aquamarine"></Setter>
+            <Setter Property="Foreground" Value="Blue"></Setter>
+            <Setter Property="FontFamily" Value="Courier"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+        </Style>
+        <Style x:Key="boxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="Gray"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Green"></Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>        
+    </Window.Resources>
+
+    <Grid Name="mainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="26px"></RowDefinition>
+            <RowDefinition Height="3.0*"></RowDefinition>
+            <RowDefinition Height="7.0*"></RowDefinition>
+            <RowDefinition Height="26px"></RowDefinition>
+        </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="7*"></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+        <DockPanel Height="30" HorizontalAlignment="Stretch" Margin="0,0,0,0"
+           Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Name="dockPanel"
+           VerticalAlignment="Top" Width="Auto">
+            <Menu Height="25" Name="menu1" Width="Auto" DockPanel.Dock="Top" VerticalAlignment="Top">
+                <MenuItem Header="_File">
+                    <MenuItem Header="_Open File (calculations)" Name="openFile" Click="openFile_Click">
+                        <MenuItem.Icon>
+                            <Image Source="/images/Open.png" Stretch="Uniform"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="_Clear Waveform" Name="clearWaveforms" Click="clearWaveforms_Click">
+                        <MenuItem.Icon>
+                            <Image Source="/images/Clear.png" Stretch="Uniform"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator></Separator>
+                    <MenuItem Header="E_xit" Name="exit" Click="exit_Click">
+                        <MenuItem.Icon>
+                            <Image Source="/images/Exit.png" Stretch="Uniform"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Parameters" Click="MenuItem_Click">
+                    <MenuItem Header="Filter parameters" Name="filterParams" Click="filterParams_Click">
+                        <MenuItem.Icon>
+                            <Image Source="/images/params_icon.png" Stretch="Uniform"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Help">
+                    <MenuItem Header="_About" Name="aboutWindow" Click="aboutWindow_Click">
+                        <MenuItem.Icon>
+                            <Image Source="/images/About_icon.png" Stretch="Uniform"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+        <GroupBox Header="Filter parameters" Grid.Row="1" Grid.Column="0">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal" Margin="5,5,0,5">
+                    <TextBlock Text="Resistance R1 [Ohm]" Width="120"></TextBlock>
+                    <TextBox Name="txtResistance_1" Width="60"
+                               Style="{StaticResource boxStyle}" Background="#FF002075"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5,0,0,5">
+                    <TextBlock Text="Resistance R2 [Ohm]" Width="120"></TextBlock>
+                    <TextBox Name="txtResistance_2" Width="60"
+                               Style="{StaticResource boxStyle}" Background="#FF002075"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5,0,0,5">
+                    <TextBlock Text="Inductance [H]" Width="120"></TextBlock>
+                    <TextBox Name="txtInductance" Width="60"
+                        Style="{StaticResource boxStyle}" Background="#FF002075"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5,0,0,5">
+                    <TextBlock Text="Capacitance [F]" Width="120"></TextBlock>
+                    <TextBox Name="txtCapacitance" Width="60" 
+                             Style="{StaticResource boxStyle}" Background="#FF002075"></TextBox>               
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Power supply parameters" Grid.Row="2" Grid.Column="0">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal" Margin="5,5,0,5">
+                    <TextBlock Text="Voltage Max [V]" Width="120"></TextBlock>
+                    <TextBox Name="txtMagnitude" Width="60"
+                             Style="{StaticResource boxStyle}" Background="#FF002075"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5,0,0,5">
+                    <TextBlock Text="Freq. min [Hz]" Width="120"></TextBlock>
+                    <TextBox Name="txtFreqMin" Width="60"
+                             Style="{StaticResource boxStyle}" Background="#FF002075"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5,0,0,5">
+                    <TextBlock Text="Freq.max [Hz]" Width="120"></TextBlock>
+                    <TextBox Name="txtFreqMax" Width="60"
+                             Style="{StaticResource boxStyle}" Background="#FF002075"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5,0,0,5">
+                    <TextBlock Text="Number of points" Width="120"></TextBlock>
+                    <TextBox Name="txtPoints" Width="60"
+                             Style="{StaticResource boxStyle}" Background="#FF002075"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5,10,0,5">
+                    <Button Name="btnRun" Content="Draw Waveforms" Width="180"
+                        Style="{StaticResource btnStyle}" Click="btnRun_Click" Background="#FF790202" Foreground="White">
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="5,10,0,5">
+                    <Button Name="btnResetZoom" Content="Reset zoom" Width="180"
+                        Style="{StaticResource btnStyle}" Background="#FF233838" Foreground="White" Click="btnResetZoom_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+        <Image Source="/images/electric_circuit.png" Stretch="Uniform" Name="circuitImage"
+               Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="5,5,5,5">
+        </Image>
+        <WindowsFormsHost Name="host" Grid.Row="2" Grid.Column="1" Margin="5,5,5,5">
+        </WindowsFormsHost>
+        <StatusBar Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+            <StatusBarItem>
+                <TextBlock Name="txtStatus" Text="Ready"></TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
